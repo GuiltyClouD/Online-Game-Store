@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/project.css">
+<link rel="stylesheet" href="/table.css">
+<title>Our First Game Store</title>
+<style>
+  body {font-family: Arial;}
+  
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+  }
+  
+  /* Fade in tabs */
+  @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  </style>
+
+<script>
+  function updatepro() {
+    var x = document.forms["updateprofile"]["name"].value;
+    if (x == "" || x == null) {
+      alert("Name cannot be blank");
+      return false;
+    }
+    
+    var y = document.forms["updateprofile"]["address"].value;
+    if (y == "" || y == null) {
+      alert("Address cannot be blank");
+      return false;
+    }
+    
+    var x = document.forms["updateprofile"]["telephone"].value;
+    if (x == "" || x == null) {
+      alert("Telephone cannot be blank");
+      return false;
+    }
+  
+    var w = document.forms["updateprofile"]["creditCard"].value;
+    if (w == "" || w == null) {
+      alert("Credit Card cannot be blank");
+      return false;
+    }
+
+  }
+
+  function updatepass() {
+    var c = document.forms["updatepassword"]["cPassword"].value;
+    if (c == "" || c == null) {
+      alert("Current Password cannot be blank");
+      return false;
+    }
+  
+    var a = document.forms["updatepassword"]["nPassword"].value;
+    if (a == "" || a == null) {
+      alert("New Password cannot be blank");
+      return false;
+    }
+
+    var b = document.forms["updatepassword"]["cnPassword"].value;
+    if (b == "" || b == null) {
+      alert("Confirmed New Password cannot be blank");
+      return false;
+    }
+
+    if (a != b) {
+      alert("Confirm New Password incorrect");
+      return false;
+    }
+  }
+  
+  </script>
+</head>
+
+<body>
+<div id="wrapper">
+
+<ul>
+    <% if(!currentUser){ %>
+   <ul style="text-align:right; float: right"><a href="/reg">Register</a></ul>
+   <ul style="text-align:right; float: right"><a href="/login">Login</a></ul>
+   <% } else { %>
+   <ul style="text-align:right; float: right"><a href="/profile">Signed in as: <%= currentUser.name %></a></ul>
+   <ul style="text-align:right; float: right"><a href="/logout">Logout</a></ul>
+   <ul style="text-align:right; float: right"><a href="/cart">Cart</a></ul>
+   <ul style="text-align:right; float: right"><a href="/library">Library</a></ul>
+   <% } %>
+ </ul>
+ </br>
+
+ <div class="flashes">
+  <% if (flashMessages) { %>
+    <% } if (flashMessages.message_pass) { %>
+      <div class="UPpass"><%= flashMessages.message_pass %></div>
+    <% } else if (flashMessages.message_pass) { %>
+      <div class="shop"><%= flashMessages.message_pass %></div>
+    <% } else if (flashMessages.message_pass) { %>
+      <div class="bought"><%= flashMessages.message_pass %></div>
+    <% } else if (flashMessages.message_pass) { %>
+      <div class="checkout"><%= flashMessages.message_pass %></div>
+  <% } %>
+</div>
+
+<h1>
+  <div align="center">Our First Game Store </div>
+</h1>
+
+<nav id="nav">
+<ul>
+	<li><a href="/home">Home</a></li>
+    <li><a href="/new games">New Games</a></li>
+    <li><a href="/top seller">Top Seller</a></li>
+    <li><a href="/upcoming">Upcoming</a></li>
+    </br>
+    </br>
+    </br>
+</ul>
+</nav>
+
+<div id="division">
+
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'profile')">Profile</button>
+    <button class="tablinks" onclick="openCity(event, 'password')">Password</button>
+  </div>
+
+
+  <div id="profile" class="tabcontent">
+  <form name="updateprofile" action="/UPprofile" onsubmit="return updatepro()" method="POST" required>
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" size="50" value="<%= currentUser.name %>"><br><br>
+
+    <label for="email">Email/Username:</label><br>
+    <input type="text" id="email" name="email" size="50" readonly disabled value="<%= currentUser.email %>"><br><br>
+
+    <label for="address">Address:</label><br>
+    <input type="text" id="address" name="address" size="50" value="<%= currentUser.address %>"><br><br>
+
+    <label for="telephone">Telephone:</label><br>
+    <input type="text" id="telephone" name="telephone" size="50" value="<%= currentUser.telephone %>"><br><br>
+
+    <label for="creditCard">Credit Card:</label><br>
+    <input type="text" id="creditCard" name="creditCard" value="<%= currentUser.creditCard %>"><br><br>
+
+
+    <button class="other-button" type="submit">Update</button>
+  </form>   
+  </br>
+    <button  class="other-button" type="submit" onclick="window.location.href='/home';">Cancel</button> <!--Cancel to redirect to game store home page-->
+
+
+  </div>
+
+  <div id="password" class="tabcontent">
+
+    <form name="updatepassword" action="/UPpass" onsubmit="return updatepass()" method="POST" required>
+    <label for="cPassword">Current Password:</label><br>
+    <input type="password" id="cPassword" name="cPassword" size="45" placeholder="We need your current password to confirm your changes"><br><br>
+
+    <label for="nPassword">New Password:</label><br>
+    <input type="password" id="nPassword" name="nPassword" size="45"><br><br>
+
+    <label for="cnPassword">Confirm New Password:</label><br>
+    <input type="password" id="cnPassword" name="cnPassword" size="45"><br><br>
+
+    <button class="other-button" type="submit">Update</button>
+  </form>
+</br>
+    <button class="other-button" type="submit" onclick="window.location.href='/home';">Cancel</button> <!--Cancel to redirect to game store home page-->
+
+  </div>
+
+  <script>  
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+     
+    </br>
+
+</div>
+
+<footer id="footer">
+  <p>Copyright © 2020 Our First Game Store</p>
+</footer>
+</div>
+
+</body>
+</html>

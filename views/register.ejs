@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script>
+        function validateForm() {
+          var x = document.forms["myForm"]["name"].value;
+          if (x == "" || x == null) {
+            alert("Name must be filled out");
+            return false;
+          }
+          
+          var em = document.forms["myForm"]["email"].value;
+          if (em == "" || em == null) {
+            alert("Email must be filled out");
+            return false;
+          }
+          
+          var pass = document.forms["myForm"]["password"].value;
+          if (pass == "" || pass == null) {
+            alert("Password must be filled out");
+            return false;
+          }
+          
+          var DOB = document.forms["myForm"]["DOB"].value;
+          if (DOB == "" || DOB == null) {
+            alert("Date of Birth must be filled out");
+            return false;
+          }          
+        }
+      </script>
+        <title>Our First Game Store</title>
+        <link rel="stylesheet" href="login.css">
+    </head>    
+    <body>
+
+      <div class="flashes">
+        <% if (flashMessages) { %>
+          <% } if (flashMessages.message_email) { %>
+            <div class="email"><%= flashMessages.message_email %></div>
+          <% } %>
+      </div>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <h2 class="active"> Regiser </h2>
+    <form name="myForm" action="/reg" onsubmit="return validateForm()" method="post" required>
+      <p>
+      Full Name: </br>
+      <input type="text" name="name" required>
+      </p>
+      <p>Email: </br><input type="text" name="email" required>
+      </p>
+      <p>Password: </br>
+      <input type="password" name="password" required>
+      </p>
+      <p>Date of Birth: </br>
+      <input type="date" name="DOB" required>
+      </p>      
+      <p>
+      <input type="submit" value="Submit">
+      </p>
+      <a href="/login">Return to login page</a>
+    </form>
+  </div>
+</div>
+</body>
+</html>

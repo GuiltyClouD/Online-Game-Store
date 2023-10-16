@@ -1,0 +1,536 @@
+1: Action 14:44:20: INSTALL. 
+1: 1: MySQL Server 5.6 2: {94DB3CCC-E617-455B-B98A-EC7FCF016602} 
+1: Action 14:44:20: FindRelatedProducts. Searching for related applications
+1: Action 14:44:20: AppSearch. Searching for installed applications
+1: Action 14:44:20: LaunchConditions. Evaluating launch conditions
+1: Action 14:44:20: ValidateProductID. 
+1: Action 14:44:20: CostInitialize. Computing space requirements
+1: Action 14:44:20: FileCost. Computing space requirements
+1: Action 14:44:20: CostFinalize. Computing space requirements
+1: Action 14:44:20: MigrateFeatureStates. Migrating feature states from related applications
+1: Action 14:44:20: InstallValidate. Validating install
+1: Action 14:44:21: SaveTargetDir. 
+1: Action 14:44:21: InstallInitialize. 
+1: Action 14:44:21: SetQtRemoveService. 
+1: Action 14:44:21: RemoveExistingProducts. Removing applications
+1: Action 14:44:21: ProcessComponents. Updating component registration
+1: Action 14:44:21: GenerateScript. Generating script operations for action:
+1: Updating component registration
+1: Action 14:44:21: UnpublishFeatures. Unpublishing Product Features
+1: Action 14:44:21: SchedSecureObjectsRollback. 
+1: Action 14:44:22: RemoveRegistryValues. Removing system registry values
+1: Action 14:44:22: RemoveShortcuts. Removing shortcuts
+1: Action 14:44:22: RemoveFiles. Removing files
+1: Action 14:44:22: RemoveFolders. Removing folders
+1: Action 14:44:22: CreateFolders. Creating folders
+1: Folder: Creating folders
+1: Action 14:44:22: InstallFiles. Copying new files
+1: File: Copying new files,  Directory: ,  Size: 
+1: Action 14:44:23: CreateShortcuts. Creating shortcuts
+1: Shortcut: Creating shortcuts
+1: Action 14:44:23: WriteRegistryValues. Writing system registry values
+1: Key: Writing system registry values, Name: , Value: 
+1: Action 14:44:24: InstallServices. Installing new services
+1: Action 14:44:24: SchedSecureObjects. 
+1: Action 14:44:24: ExecSecureObjects. 
+1: 
+1: Action 14:44:24: RegisterUser. Registering user
+1: Action 14:44:24: RegisterProduct. Registering product
+1: Registering product
+1: Action 14:44:24: PublishFeatures. Publishing Product Features
+1: Feature: Publishing Product Features
+1: Action 14:44:24: PublishProduct. Publishing product information
+1: Action 14:44:24: InstallFinalize. 
+1: Action 14:44:24: ProcessComponents. Updating component registration
+1: Action 14:44:24: CreateFolders. Creating folders
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.6\
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.6\data\
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.6\data\test\
+1: Action 14:44:24: InstallFiles. Copying new files
+1: File: accounts.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8706
+1: File: columns_priv.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8820
+1: File: columns_priv.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: columns_priv.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 4096
+1: File: cond_instances.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8624
+1: File: db.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9582
+1: File: db.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 880
+1: File: db.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 5120
+1: File: db.opt,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 61
+1: File: event.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 10223
+1: File: event.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: event.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 2048
+1: File: events_stages_current.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8991
+1: File: events_stages_history.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8991
+1: File: events_stages_history_long.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8991
+1: File: events_stages_summary_by_account_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8874
+1: File: events_stages_summary_by_host_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8844
+1: File: events_stages_summary_by_thread_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8854
+1: File: events_stages_summary_by_user_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8844
+1: File: events_stages_summary_global_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8814
+1: File: events_statements_current.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10525
+1: File: events_statements_history.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10525
+1: File: events_statements_history_long.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10525
+1: File: events_statements_summary_by_account_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10000
+1: File: events_statements_summary_by_digest.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10102
+1: File: events_statements_summary_by_host_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9970
+1: File: events_statements_summary_by_thread_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9980
+1: File: events_statements_summary_by_user_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9970
+1: File: events_statements_summary_global_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9940
+1: File: events_waits_current.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9389
+1: File: events_waits_history.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9389
+1: File: events_waits_history_long.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9389
+1: File: events_waits_summary_by_account_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8874
+1: File: events_waits_summary_by_host_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8844
+1: File: events_waits_summary_by_instance.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8878
+1: File: events_waits_summary_by_thread_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8854
+1: File: events_waits_summary_by_user_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8844
+1: File: events_waits_summary_global_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8814
+1: File: innochecksum.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6027896
+1: File: my_print_defaults.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6022272
+1: File: myisam_ftdump.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6340216
+1: File: myisamchk.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6463600
+1: File: myisamlog.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 4090992
+1: File: myisampack.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6365296
+1: File: mysql.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6999656
+1: File: mysql_config.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 9537
+1: File: mysql_config_editor.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6878848
+1: File: mysql_convert_table_format.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 4892
+1: File: mysql_embedded.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 16013944
+1: File: mysql_plugin.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6035064
+1: File: mysql_secure_installation.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 10944
+1: File: mysql_tzinfo_to_sql.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 3759744
+1: File: mysql_upgrade.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 7019128
+1: File: mysqladmin.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6885488
+1: File: mysqlbinlog.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 7061616
+1: File: mysqlcheck.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6881904
+1: File: mysqld.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 14838888
+1: File: mysqld_multi.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 28305
+1: File: mysqldump.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6956656
+1: File: mysqldumpslow.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 8042
+1: File: mysqlhotcopy.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 36505
+1: File: mysqlimport.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6876272
+1: File: mysqlshow.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6875248
+1: File: mysqlslap.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6895216
+1: File: perror.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6157928
+1: File: resolveip.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\bin\,  Size: 6020208
+1: File: ib_logfile0,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\,  Size: 50331648
+1: File: ib_logfile1,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\,  Size: 50331648
+1: File: ibdata1,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\,  Size: 12582912
+1: File: columns_priv.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8820
+1: File: columns_priv.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: columns_priv.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 4096
+1: File: db.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9582
+1: File: db.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 880
+1: File: db.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 5120
+1: File: event.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 10223
+1: File: event.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: event.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 2048
+1: File: func.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8665
+1: File: func.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: func.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: general_log.CSM,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 35
+1: File: general_log.CSV,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: general_log.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8776
+1: File: help_category.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8700
+1: File: help_category.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1228
+1: File: help_category.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 5120
+1: File: help_keyword.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8612
+1: File: help_keyword.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 162525
+1: File: help_keyword.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 29696
+1: File: help_relation.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8630
+1: File: help_relation.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 14922
+1: File: help_relation.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 26624
+1: File: help_topic.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8770
+1: File: help_topic.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 619260
+1: File: help_topic.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 21504
+1: File: innodb_index_stats.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 12982
+1: File: innodb_index_stats.ibd,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: innodb_table_stats.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8830
+1: File: innodb_table_stats.ibd,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: ndb_binlog_index.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8898
+1: File: ndb_binlog_index.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: ndb_binlog_index.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: plugin.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8586
+1: File: plugin.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: plugin.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: proc.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9996
+1: File: proc.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: proc.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 2048
+1: File: procs_priv.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8875
+1: File: procs_priv.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: procs_priv.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 4096
+1: File: proxies_priv.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8800
+1: File: proxies_priv.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 693
+1: File: proxies_priv.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 5120
+1: File: servers.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8838
+1: File: servers.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: servers.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: slave_master_info.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 10719
+1: File: slave_master_info.ibd,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: slave_relay_log_info.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9334
+1: File: slave_relay_log_info.ibd,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: slave_worker_info.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9230
+1: File: slave_worker_info.ibd,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: slow_log.CSM,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 35
+1: File: slow_log.CSV,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: slow_log.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9016
+1: File: tables_priv.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8955
+1: File: tables_priv.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: tables_priv.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 4096
+1: File: time_zone.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8636
+1: File: time_zone.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: time_zone_leap_second.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8624
+1: File: time_zone_leap_second.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone_leap_second.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: time_zone_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8606
+1: File: time_zone_name.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone_name.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: time_zone_transition.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8686
+1: File: time_zone_transition.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone_transition.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: time_zone_transition_type.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8748
+1: File: time_zone_transition_type.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone_transition_type.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: user.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 10684
+1: File: user.MYD,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 296
+1: File: user.MYI,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\mysql\,  Size: 2048
+1: File: accounts.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8706
+1: File: cond_instances.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8624
+1: File: db.opt,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 61
+1: File: events_stages_current.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8991
+1: File: events_stages_history.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8991
+1: File: events_stages_history_long.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8991
+1: File: events_stages_summary_by_account_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8874
+1: File: events_stages_summary_by_host_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8844
+1: File: events_stages_summary_by_thread_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8854
+1: File: events_stages_summary_by_user_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8844
+1: File: events_stages_summary_global_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8814
+1: File: events_statements_history.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10525
+1: File: events_statements_history_long.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10525
+1: File: events_statements_summary_by_account_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10000
+1: File: events_statements_summary_by_digest.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10102
+1: File: events_statements_summary_by_host_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9970
+1: File: events_statements_summary_by_thread_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9980
+1: File: events_statements_summary_by_user_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9970
+1: File: events_statements_summary_global_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9940
+1: File: events_statements_current.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10525
+1: File: events_waits_current.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9389
+1: File: events_waits_history.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9389
+1: File: events_waits_history_long.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9389
+1: File: events_waits_summary_by_account_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8874
+1: File: events_waits_summary_by_host_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8844
+1: File: events_waits_summary_by_instance.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8878
+1: File: events_waits_summary_by_thread_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8854
+1: File: events_waits_summary_by_user_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8844
+1: File: events_waits_summary_global_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8814
+1: File: file_instances.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8654
+1: File: file_summary_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9740
+1: File: file_summary_by_instance.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9844
+1: File: host_cache.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10483
+1: File: hosts.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8676
+1: File: mutex_instances.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8684
+1: File: objects_summary_global_by_type.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8908
+1: File: performance_timers.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8776
+1: File: rwlock_instances.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8758
+1: File: session_account_connect_attrs.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8716
+1: File: session_connect_attrs.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8716
+1: File: setup_actors.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8620
+1: File: setup_consumers.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8605
+1: File: setup_instruments.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8637
+1: File: setup_objects.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8751
+1: File: setup_timers.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8650
+1: File: socket_instances.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8818
+1: File: socket_summary_by_event_name.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9740
+1: File: socket_summary_by_instance.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9804
+1: File: table_io_waits_summary_by_index_usage.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10578
+1: File: table_io_waits_summary_by_table.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10488
+1: File: table_lock_waits_summary_by_table.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 13518
+1: File: threads.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9201
+1: File: users.frm,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8676
+1: File: ChangeLog,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\docs\,  Size: 98
+1: File: INFO_SRC,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\docs\,  Size: 184
+1: File: big_endian.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 4931
+1: File: byte_order_generic.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 5620
+1: File: byte_order_generic_x86.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 4710
+1: File: byte_order_generic_x86_64.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 4468
+1: File: decimal.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 5617
+1: File: errmsg.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 4721
+1: File: keycache.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 7502
+1: File: little_endian.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 4115
+1: File: m_ctype.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 33915
+1: File: m_string.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 9964
+1: File: my_alloc.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2628
+1: File: my_attribute.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2512
+1: File: my_byteorder.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2683
+1: File: my_compiler.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 4940
+1: File: my_config.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 18709
+1: File: my_dbug.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 8908
+1: File: my_dir.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 3997
+1: File: my_getopt.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 6551
+1: File: my_global.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 33805
+1: File: my_list.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2210
+1: File: my_net.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2489
+1: File: my_pthread.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 31745
+1: File: my_sys.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 41724
+1: File: my_xml.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 3245
+1: File: mysql.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 29833
+1: File: client_authentication.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 333
+1: File: client_plugin.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 6019
+1: File: client_plugin.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 1986
+1: File: mysql_com.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 24418
+1: File: mysql_com_server.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 1737
+1: File: mysql_embed.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 1609
+1: File: get_password.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 1622
+1: File: innodb_priv.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 1815
+1: File: plugin.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 24625
+1: File: plugin_audit.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 4564
+1: File: plugin_audit.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 10320
+1: File: plugin_auth.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 3833
+1: File: plugin_auth.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 10159
+1: File: plugin_auth_common.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 4855
+1: File: plugin_ftparser.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 8013
+1: File: plugin_ftparser.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 9058
+1: File: plugin_validate_password.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 2000
+1: File: mysql_file.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\psi\,  Size: 39275
+1: File: mysql_idle.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\psi\,  Size: 2936
+1: File: mysql_socket.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\psi\,  Size: 31606
+1: File: mysql_stage.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\psi\,  Size: 2333
+1: File: mysql_statement.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\psi\,  Size: 6669
+1: File: mysql_table.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\psi\,  Size: 6989
+1: File: mysql_thread.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\psi\,  Size: 32666
+1: File: psi.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\psi\,  Size: 68943
+1: File: service_my_plugin_log.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 2097
+1: File: service_my_snprintf.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 3785
+1: File: service_mysql_string.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 5772
+1: File: service_thd_alloc.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 4803
+1: File: service_thd_wait.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 4099
+1: File: service_thread_scheduler.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 2287
+1: File: services.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 1548
+1: File: thread_pool_priv.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\mysql\,  Size: 5490
+1: File: mysql_time.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2856
+1: File: mysql_version.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 922
+1: File: mysqld_ername.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 96707
+1: File: mysqld_error.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 35732
+1: File: plugin.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 24625
+1: File: plugin_audit.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 4564
+1: File: plugin_ftparser.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 8013
+1: File: plugin_validate_password.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2000
+1: File: sql_common.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 5403
+1: File: sql_state.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 13559
+1: File: sslopt-case.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2075
+1: File: sslopt-longopts.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 3090
+1: File: sslopt-vars.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 1912
+1: File: typelib.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\include\,  Size: 2986
+1: File: libmysql.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\,  Size: 6857840
+1: File: libmysql.lib,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\,  Size: 25852
+1: File: mysqlclient.lib,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\,  Size: 52568258
+1: File: adt_null.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 30320
+1: File: auth.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 33384
+1: File: auth_test_plugin.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 31360
+1: File: connection_control.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 91264
+1: File: ha_example.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 49264
+1: File: libdaemon_example.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 34944
+1: File: mypluglib.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 31856
+1: File: mysql_no_login.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 29816
+1: File: qa_auth_client.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 29304
+1: File: qa_auth_interface.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 31872
+1: File: qa_auth_server.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 30840
+1: File: semisync_master.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 66680
+1: File: semisync_slave.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 45176
+1: File: test_udf_services.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 31872
+1: File: validate_password.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\lib\plugin\,  Size: 92288
+1: File: LICENSE,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\,  Size: 219891
+1: File: my-default.ini,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\,  Size: 1141
+1: File: README,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\,  Size: 587
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\bulgarian\,  Size: 61334
+1: File: armscii8.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5941
+1: File: ascii.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5927
+1: File: cp1250.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 8656
+1: File: cp1251.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 8783
+1: File: cp1256.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5984
+1: File: cp1257.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 9317
+1: File: cp850.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5921
+1: File: cp852.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5943
+1: File: cp866.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 6028
+1: File: dec8.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 6944
+1: File: geostd8.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5931
+1: File: greek.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 6143
+1: File: hebrew.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5932
+1: File: hp8.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5917
+1: File: Index.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 18999
+1: File: keybcs2.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5944
+1: File: koi8r.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5925
+1: File: koi8u.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 6947
+1: File: latin1.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 10233
+1: File: latin2.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 7655
+1: File: latin5.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 5932
+1: File: latin7.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 7855
+1: File: macce.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 8464
+1: File: macroman.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 8475
+1: File: README,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 1749
+1: File: swe7.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\charsets\,  Size: 6947
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\czech\,  Size: 61866
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\danish\,  Size: 61873
+1: File: dictionary.txt,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\,  Size: 25575
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\dutch\,  Size: 62872
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\english\,  Size: 61046
+1: File: errmsg-utf8.txt,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\,  Size: 506879
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\estonian\,  Size: 61349
+1: File: fill_help_tables.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\,  Size: 887806
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\french\,  Size: 62509
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\german\,  Size: 68829
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\greek\,  Size: 67858
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\hungarian\,  Size: 61736
+1: File: innodb_memcached_config.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\,  Size: 3963
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\italian\,  Size: 62899
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\japanese\,  Size: 68574
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\korean\,  Size: 64170
+1: File: mysql_security_commands.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\,  Size: 2121
+1: File: mysql_system_tables.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\,  Size: 93667
+1: File: mysql_system_tables_data.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\,  Size: 3972
+1: File: mysql_test_data_timezone.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\,  Size: 10834
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\norwegian\,  Size: 61137
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\norwegian-ny\,  Size: 61190
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\polish\,  Size: 61775
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\portuguese\,  Size: 64102
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\romanian\,  Size: 62823
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\russian\,  Size: 76737
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\serbian\,  Size: 63523
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\slovak\,  Size: 61593
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\spanish\,  Size: 62731
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\swedish\,  Size: 61942
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.6\share\ukrainian\,  Size: 71136
+1: File: file_instances.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8654
+1: File: file_summary_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9740
+1: File: file_summary_by_instance.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9844
+1: File: func.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8665
+1: File: func.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: func.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: general_log.CSM,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 35
+1: File: general_log.CSV,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: general_log.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8776
+1: File: help_category.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8700
+1: File: help_category.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1228
+1: File: help_category.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 5120
+1: File: help_keyword.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8612
+1: File: help_keyword.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 162525
+1: File: help_keyword.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 29696
+1: File: help_relation.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8630
+1: File: help_relation.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 14922
+1: File: help_relation.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 26624
+1: File: help_topic.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8770
+1: File: help_topic.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 619260
+1: File: help_topic.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 21504
+1: File: host_cache.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10483
+1: File: hosts.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8676
+1: File: ib_logfile0,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\,  Size: 50331648
+1: File: ib_logfile1,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\,  Size: 50331648
+1: File: ibdata1,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\,  Size: 12582912
+1: File: innodb_index_stats.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 12982
+1: File: innodb_index_stats.ibd,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: innodb_table_stats.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8830
+1: File: innodb_table_stats.ibd,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: mutex_instances.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8684
+1: File: ndb_binlog_index.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8898
+1: File: ndb_binlog_index.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: ndb_binlog_index.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: objects_summary_global_by_type.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8908
+1: File: performance_timers.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8776
+1: File: plugin.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8586
+1: File: plugin.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: plugin.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: proc.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9996
+1: File: proc.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: proc.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 2048
+1: File: procs_priv.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8875
+1: File: procs_priv.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: procs_priv.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 4096
+1: File: proxies_priv.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8800
+1: File: proxies_priv.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 693
+1: File: proxies_priv.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 5120
+1: File: rwlock_instances.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8758
+1: File: servers.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8838
+1: File: servers.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: servers.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: session_account_connect_attrs.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8716
+1: File: session_connect_attrs.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8716
+1: File: setup_actors.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8620
+1: File: setup_consumers.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8605
+1: File: setup_instruments.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8637
+1: File: setup_objects.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8751
+1: File: setup_timers.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8650
+1: File: slave_master_info.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 10719
+1: File: slave_master_info.ibd,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: slave_relay_log_info.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9334
+1: File: slave_relay_log_info.ibd,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: slave_worker_info.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9230
+1: File: slave_worker_info.ibd,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 98304
+1: File: slow_log.CSM,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 35
+1: File: slow_log.CSV,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: slow_log.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 9016
+1: File: socket_instances.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8818
+1: File: socket_summary_by_event_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9740
+1: File: socket_summary_by_instance.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9804
+1: File: table_io_waits_summary_by_index_usage.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10578
+1: File: table_io_waits_summary_by_table.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 10488
+1: File: table_lock_waits_summary_by_table.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 13518
+1: File: tables_priv.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8955
+1: File: tables_priv.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: tables_priv.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 4096
+1: File: threads.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 9201
+1: File: time_zone.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8636
+1: File: time_zone.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: time_zone_leap_second.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8624
+1: File: time_zone_leap_second.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone_leap_second.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: time_zone_name.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8606
+1: File: time_zone_name.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone_name.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: time_zone_transition.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8686
+1: File: time_zone_transition.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone_transition.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: time_zone_transition_type.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 8748
+1: File: time_zone_transition_type.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 0
+1: File: time_zone_transition_type.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 1024
+1: File: user.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 10684
+1: File: user.MYD,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 296
+1: File: user.MYI,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\mysql\,  Size: 2048
+1: File: users.frm,  Directory: C:\ProgramData\MySQL\MySQL Server 5.6\data\performance_schema\,  Size: 8676
+1: Action 14:44:28: CreateShortcuts. Creating shortcuts
+1: Shortcut: icon.ico
+1: Shortcut: Icon.MysqlCmdShell
+1: Shortcut: ewo_tetn|MySQL 5.6 Command Line Client
+1: Shortcut: 3oirwn95|MySQL 5.6 Command Line Client - Unicode
+1: Action 14:44:28: WriteRegistryValues. Writing system registry values
+1: Key: \SOFTWARE\MySQL AB\MySQL Server 5.6, Name: Location, Value: C:\Program Files\MySQL\MySQL Server 5.6\
+1: Key: \SOFTWARE\MySQL AB\MySQL Server 5.6, Name: Version, Value: 5.6.49
+1: Key: \SOFTWARE\MySQL AB\MySQL Server 5.6, Name: DataLocation, Value: C:\ProgramData\MySQL\MySQL Server 5.6\
+1: Key: \SOFTWARE\MySQL AB\MySQL Server 5.6, Name: , Value: 
+1: Key: \Console\MySQL 5.6 Command Line Client - Unicode, Name: FaceName, Value: Lucida Console
+1: Key: \Console\MySQL 5.6 Command Line Client - Unicode, Name: FontWeight, Value: #400
+1: Key: \Console\MySQL 5.6 Command Line Client - Unicode, Name: , Value: 
+1: Key: \Software\MySQL AB\MySQL Server 5.6, Name: installed, Value: #1
+1: Action 14:44:28: ExecSecureObjects. 
+1: Action 14:44:29: RegisterProduct. Registering product
+1: {94DB3CCC-E617-455B-B98A-EC7FCF016602}
+1: Action 14:44:29: PublishFeatures. Publishing Product Features
+1: Feature: RegKeys
+1: Feature: Client
+1: Feature: MYSQLSERVER
+1: Feature: DEVEL
+1: Feature: DOCUMENTATION
+1: Feature: IniFiles
+1: Feature: MISC
+1: Feature: Server_Scripts
+1: Feature: Readme
+1: Feature: ALWAYSINSTALL
+1: Feature: ProgramMenu
+1: Feature: UserEditableDataFiles
+1: Action 14:44:29: PublishProduct. Publishing product information
+1: Action 14:44:29: RollbackCleanup. Removing backup files
+1: 1: MySQL Server 5.6 2: {94DB3CCC-E617-455B-B98A-EC7FCF016602} 3: 1 
+1: The action 'Install' for product 'MySQL Server 5.6.49' completed successfully.

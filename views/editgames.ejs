@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/admin.css">
+<link rel="stylesheet" href="/table.css">
+<title>Our Game First Game Admin Edit Games</title>
+</head>
+
+<body>
+<div id="wrapper">
+
+  <ul>
+    <% if(!currentUser){ %>
+   <ul style="text-align:right; float: right"><a href="/login">Login</a></ul>
+   <% } else { %>
+   <ul style="text-align:right; float: right"><a href="#">Signed in as: <%= currentUser.name %></a></ul>
+   <ul style="text-align:right; float: right"><a href="/logout">Logout</a></ul>
+   <% } %>
+ </ul>
+</br>
+
+<div class="flashes">
+  <% if (flashMessages) { %>
+    <% } if (flashMessages.message_auth) { %>
+      <div class="auth"><%= flashMessages.message_auth %></div>
+    <% } else if (flashMessages.message_shop) { %>
+      <div class="shop"><%= flashMessages.message_shop %></div>
+    <% } else if (flashMessages.message_bought) { %>
+      <div class="bought"><%= flashMessages.message_bought %></div>
+    <% } else if (flashMessages.message_checkout) { %>
+      <div class="checkout"><%= flashMessages.message_checkout %></div>
+  <% } %>
+</div>
+
+<h1>
+  <div align="center">Our First Game Store Admin Page</div>
+</h1>
+
+<nav id="nav">
+<ul>
+	<li><a href="/adminhome">Home</a></li>
+    <li><a href="/allgames">All Games</a></li>
+    <li><a href="/addgames">Add Games</a></li>
+    <div class="search-container">
+  </div><br>
+</ul>
+</nav>
+
+<div id="division">
+<p>
+	<tr style="height: 232px;">
+    </tr>
+</p>
+<p>
+
+    <% var game_string = "" %>
+  <% game_data2.forEach((game2) => { %>
+    <% var string = JSON.stringify(game2) %>
+    <% string = string.replace(/gameGenre/g, '') %>
+    <% string = string.replace("{", '') %>
+    <% string = string.replace("}", '') %>
+    <% string = string.replace(":", '') %>
+    <% string = string.replace('""', '') %>
+    <% string = string.replace('"', '') %>
+    <% string = string.replace('"', '') %>
+    <% game_string += string + ', ' %>
+  <% }) %>
+
+  <% game_string = game_string.replace(/,\s*$/, "") %>
+
+    <div>
+      <% game_data.forEach((game) => { %>
+    	<form action="/edit/<%= game.gameID%>" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 15px;" source="custom" name="form">
+       
+          
+        <div>
+           <label for="text-ccdc" class="u-label">Game Image Filename</label><br>
+           <input type="text" placeholder="" id="text-ccdc" name="image" value="<%= game.gameImage %>" class="css-input" required>
+           
+        </div><br>
+        <div>
+          <img src="/<%= game.gameImage%>"></img>
+        </div><br>
+        <div>
+            <label for="name-6797" class="u-label">Game Title</label><br>
+            <input type="text" id="name-6797" name="title" size="64" maxlength="64" value="<%= game.gameTitle %>" class="css-input" required>
+         </div><br>
+         <div>
+            <label for="message-6797" class="u-label">Game Description</label><br>
+            <textarea rows="4" cols="54" id="message-6797" name="description" class="css-input" required><%= game.gameDescription %></textarea>
+         </div><br>
+         <div>
+            <label for="text-a84c" class="u-label">Price</label><br>
+            <input type="number" step="0.01" id="text-a84c" name="price" value="<%= game.price%>" class="css-input" required>
+         </div><br>
+         <div>
+          <label for="text-5c1c" class="u-label">Genre</label><br>
+          <input type="text" size="64" placeholder="" id="text-5c1c" name="genre" value="<%= game_string %>" class="css-input" required>
+         </div><br>
+         <div>
+            <label for="date-6354" class="u-label">Release Date</label><br>
+            <% var tzoffset = (new Date()).getTimezoneOffset() * 60000; %><!-- Date conversion for display purposes -->
+            <% var date = (new Date(game.releaseDate - tzoffset).toISOString().split('T')[0]);%><!-- Date conversion for display purposes -->  
+            <input type="date" size="64" id="date-6354" name="date" value="<%= date %>" class="css-input" required>
+         </div><br>
+         <div>
+            <button style="margin:5px;" type="submit" name="EditUpdate" class="other-button">Update</button>
+         </form>
+         <form action="/allgames" method="GET" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 15px;" source="custom" name="form">
+            <button style="margin:5px;" type="cancel" name="cancel" class="other-button">Cancel</button>
+            </form>
+         </div>
+         <% }) %>
+</p>
+</div>
+
+<footer id="footer">
+  <p>Copyright © 2020 Our First Game Store</p>
+</footer>
+</div>
+
+</body>
+</html>

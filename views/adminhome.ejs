@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/admin.css">
+<link rel="stylesheet" href="/table.css">
+<title>Our Game First Game</title>
+</head>
+
+<body>
+<div id="wrapper">
+
+  <ul>
+    <% if(!currentUser){ %>
+   <ul style="text-align:right; float: right"><a href="/login">Login</a></ul>
+   <% } else { %>
+   <ul style="text-align:right; float: right"><a href="#">Signed in as: <%= currentUser.name %></a></ul>
+   <ul style="text-align:right; float: right"><a href="/logout">Logout</a></ul>
+   <% } %>
+ </ul>
+</br>
+
+<div class="flashes">
+  <% if (flashMessages) { %>
+    <% } if (flashMessages.message_auth) { %>
+      <div class="auth"><%= flashMessages.message_auth %></div>
+    <% } else if (flashMessages.message_shop) { %>
+      <div class="shop"><%= flashMessages.message_shop %></div>
+    <% } else if (flashMessages.message_bought) { %>
+      <div class="bought"><%= flashMessages.message_bought %></div>
+    <% } else if (flashMessages.message_checkout) { %>
+      <div class="checkout"><%= flashMessages.message_checkout %></div>
+  <% } %>
+</div>
+
+<h1>
+  <div align="center">Our First Game Store Admin Page</div>
+</h1>
+
+<nav id="nav">
+<ul>
+	<li><a href="/adminhome">Home</a></li>
+    <li><a href="/allgames">All Games</a></li>
+    <li><a href="/addgames">Add Games</a></li>
+</ul>
+</nav>
+</br>
+</br>
+<div id="division">
+<p>
+  <% var sumRevenue30 = 0 %>
+  <% game_data_sum30.forEach((game) => { %>
+    <% sumRevenue30 += game.price %>
+  <% }) %>
+  <% sumRevenue30 = sumRevenue30.toFixed(2) %>
+
+  <% var sumTotalSold30 = 0 %>
+  <% game_data_total_sold30.forEach((game) => { %>
+    <% sumTotalSold30++ %>
+  <% }) %>
+  
+  <% var sumTotalGames30 = 0 %>
+  <% game_data_total_games30.forEach((game) => { %>
+    <% sumTotalGames30++ %>
+  <% }) %>
+  
+  <% var sumRevenue90 = 0 %>
+  <% game_data_sum90.forEach((game) => { %>
+    <% sumRevenue90 += game.price %>
+  <% }) %>
+  <% sumRevenue90 = sumRevenue90.toFixed(2) %>
+
+  <% var sumTotalSold90 = 0 %>
+  <% game_data_total_sold90.forEach((game) => { %>
+    <% sumTotalSold90++ %>
+  <% }) %>
+  
+  <% var sumTotalGames90 = 0 %>
+  <% game_data_total_games90.forEach((game) => { %>
+    <% sumTotalGames90++ %>
+  <% }) %>
+  
+  <% var sumRevenue180 = 0 %>
+  <% game_data_sum180.forEach((game) => { %>
+    <% sumRevenue180 += game.price %>
+  <% }) %>
+  <% sumRevenue180 = sumRevenue180.toFixed(2) %>
+  
+  <% var sumTotalSold180 = 0 %>
+  <% game_data_total_sold180.forEach((game) => { %>
+    <% sumTotalSold180++ %>
+  <% }) %>
+  
+  <% var sumTotalGames180 = 0 %>
+  <% game_data_total_games180.forEach((game) => { %>
+    <% sumTotalGames180++ %>
+  <% }) %>
+  
+  <% var sumRevenueALL = 0 %>
+  <% game_data_sumALL.forEach((game) => { %>
+    <% sumRevenueALL += game.price %>
+  <% }) %>
+
+  <% sumRevenueALL = sumRevenueALL.toFixed(2) %>
+  
+  <% var sumTotalSoldALL = 0 %>
+  <% game_data_total_soldALL.forEach((game) => { %>
+    <% sumTotalSoldALL++ %>
+  <% }) %>
+  
+  <% var sumTotalGamesALL = 0 %>
+  <% game_data_total_gamesALL.forEach((game) => { %>
+    <% sumTotalGamesALL++ %>
+  <% }) %>
+      <table class="blueTable" border="1">
+         <col width="320">
+         <col width="320">
+         <col width="320">
+         <col width="320">
+         <tr>
+             <th style="text-align: center"></th>
+             <th style="text-align: center">Total Games Added</th>
+             <th style="text-align: center">Total Games Sold</th>
+             <th style="text-align: center">Revenue</th>
+         </tr>
+         <tr>
+             <td style="text-align: center">Past 30 Days</td>
+             <td style="text-align: center"><%= sumTotalGames30 %></td>
+             <td style="text-align: center"><%= sumTotalSold30 %></td>
+             <td style="text-align: center"><%= sumRevenue30 %></td>
+          </tr>
+          <tr>
+             <td style="text-align: center">Past 90 Days</td>
+             <td style="text-align: center"><%= sumTotalGames90 %></td>
+             <td style="text-align: center"><%= sumTotalSold90 %></td>
+             <td style="text-align: center"><%= sumRevenue90 %></td>
+          </tr>
+          <tr>
+             <td style="text-align: center">Past 180 Days</td>
+             <td style="text-align: center"><%= sumTotalGames180 %></td>
+             <td style="text-align: center"><%= sumTotalSold180 %></td>
+             <td style="text-align: center"><%= sumRevenue180 %></td>
+             </tr>
+           <tr>
+             <td style="text-align: center">Overall</td>
+             <td style="text-align: center"><%= sumTotalGamesALL %></td>
+             <td style="text-align: center"><%= sumTotalSoldALL %></td>
+             <td style="text-align: center"><%= sumRevenueALL %></td>
+           </tr>
+   </table>
+
+</p>
+</div>
+
+<footer id="footer">
+  <p>Copyright © 2020 Our First Game Store</p>
+</footer>
+</div>
+
+</body>
+</html>

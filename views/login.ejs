@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Our First Game Store</title>
+  <link rel="stylesheet" href="/login.css">
+</head>
+
+<body>
+
+  <div class="flashes">
+    <% if (flashMessages) { %>
+      <% if (flashMessages.message_login) { %>
+        <div class=" login"><%= flashMessages.message_login %></div>
+      <% } else if (flashMessages.message_cred) { %>
+        <div class="cred"><%= flashMessages.message_cred %></div>
+      <% } else if (flashMessages.message_success) { %>
+        <div class=" success"><%= flashMessages.message_success %></div>
+    <% } %>
+    <% } %>
+  </div>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <h2 class="active"> Login to Our First Game Store </h2>
+      <form action="/auth" method="POST">
+        <input type="text" id="login" class="fadeIn second" name="email" placeholder="Email" required>
+        <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password" required>
+        <input type="submit" class="fadeIn fourth" value="Log In">
+      </form>
+    <div id="formFooter">
+      <a class="underlineHover" href="/reg">No account? Click here to register!</a>
+    </div>
+  </div>
+</div>
+
+</html>
